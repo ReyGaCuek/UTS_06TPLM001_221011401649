@@ -34,6 +34,31 @@ Get real-time weather updates by simply entering your city. ☁️☀️❄️�
 <img src="screenshot\Screenshot_2.png" alt="Weather app demo" width="200"/>
 <img src="screenshot\Screenshot_3.png" alt="Weather app demo" width="200"/>
 
+---
+
+## ‼️ Important Set Up ‼️
+
+Create a .env file in your root directory:
+```bash
+touch .env
+```
+
+Inside .env, add your OpenWeatherMap API Key:
+```bash
+API_KEY=your_api_key_here
+```
+
+ex : https://api.openweathermap.org/data/2.5/weather?q=Jakarta&appid={your_api_key_here}&units=metric
+
+### ❕ Install Dependencies ❕
+```bash
+flutter pub get
+```
+
+### ❕ Run the App ❕
+```bash
+flutter run
+```
 
 ---
 
