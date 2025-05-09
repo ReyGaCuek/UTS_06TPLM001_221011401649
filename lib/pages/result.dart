@@ -33,7 +33,7 @@ class _ResultState extends State<Result> {
     try {
       String? apiKey = dotenv.env['API_KEY'];
       if (apiKey == null) {
-        throw Exception('API_KEY not found in .env');
+        throw Exception('API_KEY not found in .env'); //misal
       }
       String url =
           'https://api.openweathermap.org/data/2.5/weather?q=${widget.place}&appid=$apiKey&units=metric';
